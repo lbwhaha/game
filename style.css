@@ -1,0 +1,52 @@
+canvas{
+    display: block;
+    margin: auto;
+    left: 20%;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    border: 1px solid black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#start{
+    margin: auto;
+    left: 20%;
+    width: 1000px;
+    height: 800px;
+    background-image: url("img/startbg1.png");
+    display: block;
+    position: absolute;
+}
+#game{
+    position: absolute;
+    margin: auto;
+    left: 20%;
+    width: 1000px;
+    height: 800px;
+    display: none;
+}
+#over{
+    margin: auto;
+    left: 20%;
+    width: 1000px;
+    height: 800px;
+    display: none;
+    position: absolute;
+    background-image: url("img/overbg.png");
+}
+#startbt{
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    width: 200px;
+    height: 200px;
+}
+#back{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    top: 80%;
+}
